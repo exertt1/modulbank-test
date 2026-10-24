@@ -7,12 +7,12 @@
 
 ## 2. Создайте виртуальное окружение:
     
-    Linux:
+Linux:
 
 ```bash
     python -m venv venv && source venv/bin/activate
 ```
-   Windows:
+Windows:
 
 ```bash
     python -m venv venv
