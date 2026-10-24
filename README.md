@@ -1,13 +1,18 @@
 # Установка и запуск
 ## 1. Клонируйте репозиторий.
+
+```bash
+    git clone git@github.com:exertt1/modulbank-test.git
+```
+
 ## 2. Создайте виртуальное окружение:
     
-    ### Linux:
+    Linux:
 
 ```bash
     python -m venv venv && source venv/bin/activate
 ```
-   ### Windows:
+   Windows:
 
 ```bash
     python -m venv venv
