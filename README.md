@@ -3,6 +3,7 @@
 
 ```bash
     git clone git@github.com:exertt1/modulbank-test.git
+    cd modulbank-test
 ```
 
 ## 2. Создайте виртуальное окружение:
@@ -21,7 +22,7 @@ Windows:
 ## 3. Установите зависимости: pip install -r requirements.txt.
 
 ```bash
-    pip install -r requirements.txt.
+    pip install -r requirements.txt
 ```
 
 ## 4. Скопируйте .env.example в .env и заполните данные вашего локального PostgreSQL.
@@ -31,5 +32,5 @@ Windows:
 ### Выполните команду:
 
 ```bash
-    pytest -v modulbank-test\part3_Python_autotests
+    pytest -v part3_Python_autotests\test_db_connection.py
 ```
